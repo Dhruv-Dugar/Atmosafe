@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED054A6629CC66A000F1BB7B /* TreesBenefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED054A6529CC66A000F1BB7B /* TreesBenefit.swift */; };
+		ED201F3529ABA5F900AD1427 /* ExplainationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED201F3429ABA5F900AD1427 /* ExplainationView.swift */; };
+		ED2D808E29C295A40003C1CF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D808D29C295A40003C1CF /* Extensions.swift */; };
+		ED2ED58E29C98AAB00798B14 /* TitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2ED58D29C98AAB00798B14 /* TitleStyle.swift */; };
+		ED40554029E698B2008F818D /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40553F29E698B2008F818D /* ConfettiView.swift */; };
+		ED40554229E698C8008F818D /* PressActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40554129E698C8008F818D /* PressActions.swift */; };
+		ED40554429E698E0008F818D /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40554329E698E0008F818D /* ViewExtensions.swift */; };
+		ED40554A29E69F94008F818D /* Delhi_Pollution_Model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ED40554929E69F94008F818D /* Delhi_Pollution_Model.mlmodel */; };
+		ED44299729C755B20062E283 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44299629C755B20062E283 /* CSVParser.swift */; };
+		ED44299929C858760062E283 /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = ED44299829C858760062E283 /* data.csv */; };
+		ED44299B29C85AEE0062E283 /* GroupBoxConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED44299A29C85AEE0062E283 /* GroupBoxConfiguration.swift */; };
+		ED6033DF29E28BF200D2485A /* Pollution_Plant.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ED6033DE29E28BF200D2485A /* Pollution_Plant.usdz */; };
+		ED6033E129E28EF500D2485A /* ThankYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6033E029E28EF500D2485A /* ThankYouView.swift */; };
+		ED67ECAF29C9DBFA0010A027 /* COChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67ECAE29C9DBFA0010A027 /* COChartView.swift */; };
+		ED7D605829DF120B00F9C92F /* Forest_House_lowpoly.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ED7D605629DF120A00F9C92F /* Forest_House_lowpoly.usdz */; };
+		ED9F6B3129D55C9700D21C0F /* SceneKitModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9F6B3029D55C9700D21C0F /* SceneKitModelsView.swift */; };
+		EDB09D4A29AA613A00A89ECC /* PollutionPredictionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB09D4929AA613A00A89ECC /* PollutionPredictionApp.swift */; };
+		EDB09D4C29AA613A00A89ECC /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB09D4B29AA613A00A89ECC /* IntroView.swift */; };
+		EDB09D4E29AA613A00A89ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB09D4D29AA613A00A89ECC /* Assets.xcassets */; };
+		EDB09D5129AA613A00A89ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB09D5029AA613A00A89ECC /* Preview Assets.xcassets */; };
+		EDDDC13D29ACAE4D009A2EE5 /* PollutionPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDC13C29ACAE4D009A2EE5 /* PollutionPrediction.swift */; };
+		EDF2EEC729DB1B90001ED474 /* NO2ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EEC629DB1B90001ED474 /* NO2ChartView.swift */; };
+		EDF2EEC929DB1BC4001ED474 /* SO2ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EEC829DB1BC4001ED474 /* SO2ChartView.swift */; };
+		EDF2EECB29DB1BEE001ED474 /* O3ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EECA29DB1BEE001ED474 /* O3ChartView.swift */; };
+		EDF2EECD29DB1C0B001ED474 /* PM10ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EECC29DB1C0B001ED474 /* PM10ChartView.swift */; };
+		EDF2EECF29DB1D00001ED474 /* DoubleTruncation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF2EECE29DB1D00001ED474 /* DoubleTruncation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED054A6529CC66A000F1BB7B /* TreesBenefit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesBenefit.swift; sourceTree = "<group>"; };
+		ED201F3429ABA5F900AD1427 /* ExplainationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainationView.swift; sourceTree = "<group>"; };
+		ED2D808D29C295A40003C1CF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ED2ED58D29C98AAB00798B14 /* TitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleStyle.swift; sourceTree = "<group>"; };
+		ED40553F29E698B2008F818D /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		ED40554129E698C8008F818D /* PressActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressActions.swift; sourceTree = "<group>"; };
+		ED40554329E698E0008F818D /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		ED40554929E69F94008F818D /* Delhi_Pollution_Model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Delhi_Pollution_Model.mlmodel; sourceTree = "<group>"; };
+		ED44299629C755B20062E283 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		ED44299829C858760062E283 /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		ED44299A29C85AEE0062E283 /* GroupBoxConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxConfiguration.swift; sourceTree = "<group>"; };
+		ED6033DE29E28BF200D2485A /* Pollution_Plant.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pollution_Plant.usdz; sourceTree = "<group>"; };
+		ED6033E029E28EF500D2485A /* ThankYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouView.swift; sourceTree = "<group>"; };
+		ED67ECAE29C9DBFA0010A027 /* COChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COChartView.swift; sourceTree = "<group>"; };
+		ED7D605629DF120A00F9C92F /* Forest_House_lowpoly.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Forest_House_lowpoly.usdz; sourceTree = "<group>"; };
+		ED9F6B3029D55C9700D21C0F /* SceneKitModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitModelsView.swift; sourceTree = "<group>"; };
+		EDB09D4629AA613A00A89ECC /* AtmosafeAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtmosafeAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB09D4929AA613A00A89ECC /* PollutionPredictionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionPredictionApp.swift; sourceTree = "<group>"; };
+		EDB09D4B29AA613A00A89ECC /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		EDB09D4D29AA613A00A89ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB09D5029AA613A00A89ECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDDDC13C29ACAE4D009A2EE5 /* PollutionPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionPrediction.swift; sourceTree = "<group>"; usesTabs = 1; };
+		EDF2EEC629DB1B90001ED474 /* NO2ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NO2ChartView.swift; sourceTree = "<group>"; };
+		EDF2EEC829DB1BC4001ED474 /* SO2ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SO2ChartView.swift; sourceTree = "<group>"; };
+		EDF2EECA29DB1BEE001ED474 /* O3ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O3ChartView.swift; sourceTree = "<group>"; };
+		EDF2EECC29DB1C0B001ED474 /* PM10ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM10ChartView.swift; sourceTree = "<group>"; };
+		EDF2EECE29DB1D00001ED474 /* DoubleTruncation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTruncation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB09D4329AA613A00A89ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDB09D3D29AA613A00A89ECC = {
+			isa = PBXGroup;
+			children = (
+				EDB09D4829AA613A00A89ECC /* PollutionPrediction */,
+				EDB09D4729AA613A00A89ECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB09D4729AA613A00A89ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB09D4629AA613A00A89ECC /* AtmosafeAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB09D4829AA613A00A89ECC /* PollutionPrediction */ = {
+			isa = PBXGroup;
+			children = (
+				ED7D605629DF120A00F9C92F /* Forest_House_lowpoly.usdz */,
+				ED40554929E69F94008F818D /* Delhi_Pollution_Model.mlmodel */,
+				ED6033DE29E28BF200D2485A /* Pollution_Plant.usdz */,
+				ED44299829C858760062E283 /* data.csv */,
+				EDB09D4929AA613A00A89ECC /* PollutionPredictionApp.swift */,
+				ED67ECAE29C9DBFA0010A027 /* COChartView.swift */,
+				EDF2EEC629DB1B90001ED474 /* NO2ChartView.swift */,
+				EDF2EECC29DB1C0B001ED474 /* PM10ChartView.swift */,
+				EDF2EECA29DB1BEE001ED474 /* O3ChartView.swift */,
+				EDF2EEC829DB1BC4001ED474 /* SO2ChartView.swift */,
+				EDB09D4B29AA613A00A89ECC /* IntroView.swift */,
+				ED201F3429ABA5F900AD1427 /* ExplainationView.swift */,
+				ED9F6B3029D55C9700D21C0F /* SceneKitModelsView.swift */,
+				EDDDC13C29ACAE4D009A2EE5 /* PollutionPrediction.swift */,
+				ED054A6529CC66A000F1BB7B /* TreesBenefit.swift */,
+				ED6033E029E28EF500D2485A /* ThankYouView.swift */,
+				ED40553F29E698B2008F818D /* ConfettiView.swift */,
+				ED40554129E698C8008F818D /* PressActions.swift */,
+				ED40554329E698E0008F818D /* ViewExtensions.swift */,
+				ED44299629C755B20062E283 /* CSVParser.swift */,
+				ED2D808D29C295A40003C1CF /* Extensions.swift */,
+				EDF2EECE29DB1D00001ED474 /* DoubleTruncation.swift */,
+				ED2ED58D29C98AAB00798B14 /* TitleStyle.swift */,
+				ED44299A29C85AEE0062E283 /* GroupBoxConfiguration.swift */,
+				EDB09D4D29AA613A00A89ECC /* Assets.xcassets */,
+				EDB09D4F29AA613A00A89ECC /* Preview Content */,
+			);
+			path = PollutionPrediction;
+			sourceTree = "<group>";
+		};
+		EDB09D4F29AA613A00A89ECC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDB09D5029AA613A00A89ECC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB09D4529AA613A00A89ECC /* AtmosafeAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB09D5429AA613A00A89ECC /* Build configuration list for PBXNativeTarget "AtmosafeAI" */;
+			buildPhases = (
+				EDB09D4229AA613A00A89ECC /* Sources */,
+				EDB09D4329AA613A00A89ECC /* Frameworks */,
+				EDB09D4429AA613A00A89ECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtmosafeAI;
+			packageProductDependencies = (
+			);
+			productName = PollutionPrediction;
+			productReference = EDB09D4629AA613A00A89ECC /* AtmosafeAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB09D3E29AA613A00A89ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDB09D4529AA613A00A89ECC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EDB09D4129AA613A00A89ECC /* Build configuration list for PBXProject "PollutionPrediction" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB09D3D29AA613A00A89ECC;
+			packageReferences = (
+			);
+			productRefGroup = EDB09D4729AA613A00A89ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB09D4529AA613A00A89ECC /* AtmosafeAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB09D4429AA613A00A89ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7D605829DF120B00F9C92F /* Forest_House_lowpoly.usdz in Resources */,
+				ED6033DF29E28BF200D2485A /* Pollution_Plant.usdz in Resources */,
+				EDB09D5129AA613A00A89ECC /* Preview Assets.xcassets in Resources */,
+				EDB09D4E29AA613A00A89ECC /* Assets.xcassets in Resources */,
+				ED44299929C858760062E283 /* data.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB09D4229AA613A00A89ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40554429E698E0008F818D /* ViewExtensions.swift in Sources */,
+				EDDDC13D29ACAE4D009A2EE5 /* PollutionPrediction.swift in Sources */,
+				EDF2EEC929DB1BC4001ED474 /* SO2ChartView.swift in Sources */,
+				ED6033E129E28EF500D2485A /* ThankYouView.swift in Sources */,
+				ED9F6B3129D55C9700D21C0F /* SceneKitModelsView.swift in Sources */,
+				ED44299729C755B20062E283 /* CSVParser.swift in Sources */,
+				EDF2EEC729DB1B90001ED474 /* NO2ChartView.swift in Sources */,
+				ED40554229E698C8008F818D /* PressActions.swift in Sources */,
+				ED201F3529ABA5F900AD1427 /* ExplainationView.swift in Sources */,
+				ED40554029E698B2008F818D /* ConfettiView.swift in Sources */,
+				EDF2EECB29DB1BEE001ED474 /* O3ChartView.swift in Sources */,
+				EDB09D4C29AA613A00A89ECC /* IntroView.swift in Sources */,
+				ED2ED58E29C98AAB00798B14 /* TitleStyle.swift in Sources */,
+				EDF2EECD29DB1C0B001ED474 /* PM10ChartView.swift in Sources */,
+				EDB09D4A29AA613A00A89ECC /* PollutionPredictionApp.swift in Sources */,
+				EDF2EECF29DB1D00001ED474 /* DoubleTruncation.swift in Sources */,
+				ED054A6629CC66A000F1BB7B /* TreesBenefit.swift in Sources */,
+				ED40554A29E69F94008F818D /* Delhi_Pollution_Model.mlmodel in Sources */,
+				ED2D808E29C295A40003C1CF /* Extensions.swift in Sources */,
+				ED44299B29C85AEE0062E283 /* GroupBoxConfiguration.swift in Sources */,
+				ED67ECAF29C9DBFA0010A027 /* COChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDB09D5229AA613A00A89ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDB09D5329AA613A00A89ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB09D5529AA613A00A89ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PollutionPrediction/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5A93M73DC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AtmosafeAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvdugar.atmosafeai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDB09D5629AA613A00A89ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PollutionPrediction/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5A93M73DC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AtmosafeAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dhruvdugar.atmosafeai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB09D4129AA613A00A89ECC /* Build configuration list for PBXProject "PollutionPrediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB09D5229AA613A00A89ECC /* Debug */,
+				EDB09D5329AA613A00A89ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB09D5429AA613A00A89ECC /* Build configuration list for PBXNativeTarget "AtmosafeAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB09D5529AA613A00A89ECC /* Debug */,
+				EDB09D5629AA613A00A89ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB09D3E29AA613A00A89ECC /* Project object */;
+}
